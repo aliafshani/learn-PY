@@ -5,16 +5,16 @@ dict = {
     'family': 'mio',
 }
 
-for i in friends:
-    print(i)
-else:
-    print("finished")
+# for i in friends:
+#     print(i)
+# else:
+#     print("finished")
     
 # for number in range(8):
 #     print(number)
 
 # for number in range(0,8):
-#     print(number)
+#     print(number,end=" ")
     
 # for number in range(0, 18 , 2):
 #     print(number)

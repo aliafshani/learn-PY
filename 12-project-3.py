@@ -12,13 +12,23 @@
 
 # ###################################################################
 
-name = input("enter your name : ")
-name = name.lower()
-name = name.replace(" " ,"")
-b =[]
+# name = input("enter your name : ")
+# name = name.lower()
+# name = name.replace(" " ,"")
+# b =[]
 
 
-for item in name:
-    if item not in b:
-        print(f'your name has {name.count(item)}  {item}')
-        b.append(item)
+# for item in name:
+#     if item not in b:
+#         print(f'your name has {name.count(item)}  {item}')
+#         b.append(item)
+
+
+##################################################################################
+
+# user_int = int(input("enter your number"))
+
+# for i in range(user_int):
+#     for j in range(i):
+#         print(j,end=" ")
+#     print("")
