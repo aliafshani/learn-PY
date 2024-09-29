@@ -19,11 +19,14 @@ users = {
     'farid' : "7800"
 }
 
+
 entres_username = input("enter your username:")
 entres_pass = input("enter your pass:")
 
-if entres_username in users and users[entres_username] == entres_pass:
-    print("you are our user")
+while entres_username not in users or entres_pass != users[entres_username]:
+    print("your username or pass is wrong:")
+    entres_username = input("enter your username:")
+    entres_pass = input("enter your pass:")
     
-else:
-    print("you are not our user")
+print("you are logged in")
+  
