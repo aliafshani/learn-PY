@@ -19,7 +19,6 @@ users = {
     'farid' : "7800"
 }
 
-
 entres_username = input("enter your username:")
 entres_pass = input("enter your pass:")
 
